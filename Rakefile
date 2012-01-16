@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "rubyheap"
   gem.homepage = "http://github.com/Raynes/rubyheap"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Simple Ruby bindings for the RefHeap API.}
+  gem.description = %Q{Simple Ruby bindings for the RefHeap https://refheap.com/ API.}
   gem.email = "i@raynes.me"
   gem.authors = ["Anthony Grimes"]
   # dependencies defined in Gemfile
