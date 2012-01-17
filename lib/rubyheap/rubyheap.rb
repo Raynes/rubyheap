@@ -12,7 +12,7 @@ module Refheap
     # Set some default_params based on the username and token (or lack
     # thereof).
     def initialize(username = nil, token = nil)
-      if username and token
+      if username && token
         @base_params = {:username => username, :token => token}
       else
         @base_params = {}
