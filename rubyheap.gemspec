@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{rubyheap}
-  s.version = "0.1.1"
+  s.name = "rubyheap"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Anthony Grimes"]
-  s.date = %q{2012-01-17}
-  s.description = %q{Simple Ruby bindings for the RefHeap https://refheap.com/ API.}
-  s.email = %q{i@raynes.me}
+  s.date = "2012-05-05"
+  s.description = "Simple Ruby bindings for the RefHeap https://refheap.com/ API."
+  s.email = "i@raynes.me"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.markdown"
@@ -29,17 +29,16 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_rubyheap.rb"
   ]
-  s.homepage = %q{http://github.com/Raynes/rubyheap}
+  s.homepage = "http://github.com/Raynes/rubyheap"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.6}
-  s.summary = %q{Simple Ruby bindings for the RefHeap API.}
+  s.rubygems_version = "1.8.15"
+  s.summary = "Simple Ruby bindings for the RefHeap API."
 
   if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
-    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<httparty>, ["~> 0.8.1"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
