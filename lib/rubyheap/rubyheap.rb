@@ -6,7 +6,7 @@
 module Refheap  
   class Paste
    include HTTParty
-   base_uri "https://refheap.com/api"
+   base_uri "https://www.refheap.com/api"
    format :json
 
     # Set some default_params based on the username and token (or lack
